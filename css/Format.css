@@ -1,0 +1,93 @@
+.navigation{
+    background-color: darkcyan;
+    overflow: hidden;
+
+}
+
+.navigation a{
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: azure;
+    text-align: center;
+
+}
+
+.navigation a:hover{
+    color: blue;
+    background-color: goldenrod;
+}
+
+.headingeffect{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: goldenrod;
+    font-size: xxx-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-110%);
+    position: absolute;
+}
+
+.textformat{
+    text-align: center;
+    font-family: "Berlin Sans FB";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,14%);
+    position: absolute;
+    color: azure;
+    font-size: x-large;
+}
+
+.profile{
+    background-image:url("../hospital/dynamic-wang-irn9H9-Kfq4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+
+
+}
+
+.distinct{
+    margin-top: 3px;
+}
+
+.tablestyle{
+    width: 85%;
+    border: 1px solid burlywood;
+    background-color: darkslategrey;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tablestyle th, td{
+    border: 1px solid black;
+    padding: 13px;
+
+}
+
+.backgroundcolor{
+    background-image: url("../hospital/cash-uJAIZP-J5Tg-unsplash.jpg") ;
+}
+
+.titlecase{
+    margin-top: 2px;
+    text-align: center;
+    color: black;
+    font-family: "Corbel Light";
+    border: 2px solid darkgray;
+    border-radius: 2px;
+    padding: 10px 10px;
+    background-color: darkgray;
+
+}
+
+.imageinsert{
+    background-image: repeating-linear-gradient(to left,red, orange, yellow, green, blue, indigo, violet);
+}

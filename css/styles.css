@@ -1,0 +1,113 @@
+.topnav{
+    background-color: gray;
+    overflow: hidden;
+
+}
+
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.landing{
+    background-image:url("../hospital/geran-de-klerk-f0oe9P9Yixs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+}
+
+.landtext{
+    text-align: center;
+    color: indianred;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.landbtn{
+    background-color: darkolivegreen;
+    padding: 12px 12px;
+    color: rosybrown;
+    border-radius: 8px;
+    width: 40%;
+    border: none;
+}
+
+.separate{
+    margin-top: 5px;
+}
+
+.landbtn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.tablestyle{
+    width: 80%;
+    border: 1px solid darkolivegreen;
+    background-color: darkolivegreen;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+
+
+.tablestyle th, td{
+    border: 1px solid black;
+    padding: 12px;
+
+}
+
+.flexbox{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.flexbox div{
+    margin: 10px;
+
+}
+
+.flexbox p{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flexbox h3{
+    text-align: center;
+    font-family: "Calibri Light";
+}
+
+.formstyle{
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.formstyle input, textarea{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}
